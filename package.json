@@ -1,0 +1,28 @@
+{
+  "name": "@pinpin.link/cordova-plugin-navigationbar",
+  "version": "1.0.0",
+  "author": "Vincent Chen<vincent@pinpin.link>",
+  "description": "Cordova iOS Native NavigationBar",
+  "cordova": {
+    "id": "cordova-plugin-navigationbar",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-ios",
+    "navigationbar",
+    "navbar"
+  ],
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/PinPinLink/cordova-plugin-navigationbar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PinPinLink/cordova-plugin-navigationbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PinPinLink/cordova-plugin-navigationbar/issues"
+  }
+}
