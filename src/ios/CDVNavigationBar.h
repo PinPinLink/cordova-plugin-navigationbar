@@ -3,7 +3,7 @@
 #import <UIKit/UINavigationBar.h>
 #import <Cordova/CDVPlugin.h>
 
-@interface CDVNavigationBarController : CDVPlugin {
+@interface CDVNavigationBar : CDVPlugin {
   UINavigationBar* navBar;
   UINavigationItem* navItem;
   UIBarButtonItem* leftButton;
@@ -13,7 +13,7 @@
   CGFloat height;
 }
 
-@property (nonatomic, retain) CDVNavigationBarController *navBarController;
+@property (nonatomic, retain) CDVNavigationBar *navBarController;
 
 - (void) style: (CDVInvokedUrlCommand*) command;
 - (void) title: (CDVInvokedUrlCommand*) command;
