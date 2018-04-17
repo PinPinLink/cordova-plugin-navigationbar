@@ -2,6 +2,9 @@
 Cordova iOS Native NavigationBar
 
 ## Installation
+
+In your root Cordova project
+
 ```
 cordova plugin add @pinpin.link/cordova-plugin-navigationbar
 ```
