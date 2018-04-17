@@ -1,6 +1,6 @@
 {
   "name": "@pinpin.link/cordova-plugin-navigationbar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Vincent Chen<vincent@pinpin.link>",
   "description": "Cordova iOS Native NavigationBar",
   "cordova": {

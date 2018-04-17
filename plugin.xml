@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="cordova-plugin-navigationbar" version="1.0.0"
-  xmlns="http://apache.org/cordova/ns/plugins/1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-navigationbar" version="1.1.0">
   <name>Cordova Plugin NavigationBar</name>
   <description>Cordova iOS Native NavigationBar</description>
   <license>Apache 2.0</license>
-  <keywords>Native NavigationBar</keywords>
+  <keywords>Native NavigationBar navbar</keywords>
   <repo>https://github.com/PinPinLink/cordova-plugin-navigationbar.git</repo>
   <issue>https://github.com/PinPinLink/cordova-plugin-navigationbar/issues</issue>
   <js-module name="NavigationBar" src="www/NavigationBar.js">
@@ -14,10 +12,10 @@
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
       <feature name="NavigationBar">
-        <param name="ios-package" value="CDVNavigationBarController" onload="true"/>
+        <param name="ios-package" value="CDVNavigationBar" onload="true"/>
       </feature>
     </config-file>
-    <header-file src="src/ios/CDVNavigationBarController.h"/>
-    <source-file src="src/ios/CDVNavigationBarController.m"/>
+    <header-file src="src/ios/CDVNavigationBar.h"/>
+    <source-file src="src/ios/CDVNavigationBar.m"/>
   </platform>
 </plugin>

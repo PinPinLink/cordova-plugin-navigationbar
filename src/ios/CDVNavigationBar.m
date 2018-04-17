@@ -1,8 +1,8 @@
-#import "CDVNavigationBarController.h"
+#import "CDVNavigationBar.h"
 #import <UIKit/UITabBar.h>
 #import <QuartzCore/QuartzCore.h>
 
-@implementation CDVNavigationBarController
+@implementation CDVNavigationBar
 @synthesize webView;
 
 -(void) pluginInitialize {
